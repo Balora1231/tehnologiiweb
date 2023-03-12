@@ -8,15 +8,15 @@ import Asynchronous from "./componets/cardlist2";
 import DisabledOptions from "./componets/cardlist3";
 function App() {
   return (
-      <div class='items'>
+      <div className='items'>
       <div>
-   <h1 class='items'>Menu</h1>
+   <h1 className='items'>Menu</h1>
       </div>
-      <div class="menu">
-          <div class="border">
+      <div className="menu">
+          <div className="border">
 <RecipeReviewCard />
       </div>
-          <div class="border">
+          <div className="border">
 <RecipeReviewCard/>
       </div>
           <div className="border">
@@ -29,17 +29,17 @@ function App() {
               <RecipeReviewCard/>
           </div>
       </div>
-          <div class="numberalign">
-              <div class='inputaligns'>
+          <div className="numberalign">
+              <div className='inputaligns'>
                   <CountrySelect />
               </div>
-              <div class='inputaligns'>
+              <div className='inputaligns'>
                   <Asynchronous/>
               </div>
-              <div class='inputaligns'>
+              <div className='inputaligns'>
                   <DisabledOptions/>
               </div>
-              <div class="inputaligns">
+              <div className="inputaligns">
                   <ButtonBase/>
               </div>
       </div>
