@@ -1,13 +1,16 @@
 import './App.css';
 
 import RecipeReviewCard from "./componets/card";
-
 import ButtonBase from "./componets/button";
 import CountrySelect from "./componets/numberinput";
 import Asynchronous from "./componets/cardlist2";
 import DisabledOptions from "./componets/cardlist3";
+import TodoList from "./componets/toDoList";
+
 function App() {
   return (
+      <div>
+
       <div className='items'>
       <div>
    <h1 className='items'>Menu</h1>
@@ -44,10 +47,12 @@ function App() {
               </div>
       </div>
           </div>
+          <div>
+            <TodoList/>
+          </div>
+      </div>
 
-
-
-  );
+          );
 }
 
 export default App;
