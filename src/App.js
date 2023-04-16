@@ -6,10 +6,14 @@ import CountrySelect from "./componets/numberinput";
 import Asynchronous from "./componets/cardlist2";
 import DisabledOptions from "./componets/cardlist3";
 import TodoList from "./componets/toDoList";
+import FullScreenLoginModal from "./componets/login";
 
 function App() {
   return (
       <div>
+          <div>
+              <FullScreenLoginModal/>
+          </div>
 
       <div className='items'>
       <div>
